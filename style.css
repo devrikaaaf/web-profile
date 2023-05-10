@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    background: none;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+div.Logo {
+    width: 1260px;
+    height: 400px;
+    display: center;
+}
+
+div.Icon {
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    width: 1260px;
+    height: 80px;
+    padding: 10px;
+    background-color: none;
+    border: 5px solid #605164;
+}
+
+a:hover {
+    opacity: 50%;
+    padding: 20px
+}
+
+div.page {
+    padding: 25px;
+    margin-left: 0.5px;
+    margin-top: 200px;
+    width: 1260px;
+    height: 1500px;
+    display: flex;
+    float: center;
+    justify-content: space-around;
+    border: 5px solid #605164;
+}
+
+div.article {
+    margin-top: 10px;
+    display: flexbox;
+    float: right;
+    width: 1000px;
+    height: 500px;
+    padding: 20px;
+    background-color: #cac5e4;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.article {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 10px;
+    top: 0;
+}
+
+.article-image {
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.article-icon {
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    margin-right: 60px;
+    padding: 10px;
+}
+
+div.aside {
+    margin: 10px;
+    display: flexbox;
+    float: left;
+    width: 2000px;
+    height: 1200px;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #decae4;
+}
+
+div.footer {
+    overflow: hidden;
+    width: 1260px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: #605164;
+}
+
+.avatar {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color: #bba4c2
+}
+
+.column {
+    float: left;
+    width: 97%;
+    height: 100px;
+    margin: 20px 1.15%;
+    background-color: #decae4
+}
+
+.username {
+    margin-top: 30px;
+}
+
+.comment {
+    margin-top: 10px;
+    overflow: hidden;
+}
